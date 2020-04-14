@@ -1,0 +1,58 @@
+/* BODY */
+
+/* HEADER */
+nav{
+    background-color: black;
+}
+nav h1 {
+    color: tomato;
+    text-align: center;
+    padding-top: 15px;
+}
+nav li {
+    display: inline-block;
+    background-color: red;
+    
+    }
+
+nav ul {
+    text-align: right;
+}
+nav li a {
+    font-size: large;
+    text-decoration: none;
+}
+
+/* MAIN */
+main {
+    background-color: tomato;
+    text-align: center;
+}
+main h2 {
+    padding-top: 30px;
+}
+.img-1 {
+    width: 80%;
+    height: 400px;
+}
+.img-2, .img-3 {
+    width: 80%;
+    height: 300px;
+}
+
+main section h3 {
+}
+main section {
+    display: inline-block;
+    width: 30%;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background-color: black;
+    color: wheat;
+    padding: 15px;
+}
+
+
