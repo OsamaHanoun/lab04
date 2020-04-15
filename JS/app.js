@@ -8,18 +8,19 @@ var userTime = prompt('What is the time?');
 
 
 
-if (0 <= userTime < 24); {
-    hourNow = userTime;
-if (24 > hourNow >= 18) {
-    greeting = 'Good evening ' + userName;
+if (0 <= userTime && userTime < 24){
+
+    if (24 > userTime >= 18) {
+        greeting = 'Good Evening ' + userName;
+    }
+    else if  (18 > userTime && userTime >= 12) {
+        greeting = 'Good Afternoon ' + userName;
+    }
+    else {
+        greeting = 'Good Morning ' + userName;
+    } 
 }
-else if (18 > hourNow > 12) {
-    greeting = 'Good afternoon ' + userName;
-}
-else if (hourNow >= 0) {
-    greeting = 'Good morning ' + userName;
-} 
-}
+
 else {
     greeting = 'Welcome ' + userName;
 }
@@ -50,11 +51,11 @@ function heartSymboles() {
         }
     }
     else {
-        
+
         for (let i = 0; i < 10; i++) {
             text = text + ' ♥ ';
         }
-        
+
     }
     imgText(text);
 }
