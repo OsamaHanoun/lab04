@@ -10,8 +10,6 @@ var userTime = prompt('What is the time?');
 
 if (0 <= userTime < 24); {
     hourNow = userTime;
-}
-
 if (24 > hourNow >= 18) {
     greeting = 'Good evening ' + userName;
 }
@@ -20,6 +18,7 @@ else if (18 > hourNow > 12) {
 }
 else if (hourNow >= 0) {
     greeting = 'Good morning ' + userName;
+} 
 }
 else {
     greeting = 'Welcome ' + userName;
