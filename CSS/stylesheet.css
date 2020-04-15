@@ -22,6 +22,10 @@ nav li a {
     font-size: large;
     text-decoration: none;
 }
+.imgText{
+    width: 100%;
+    
+}
 
 /* MAIN */
 main {
